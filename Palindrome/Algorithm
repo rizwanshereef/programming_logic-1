@@ -1,0 +1,11 @@
+Step 1: Input the number as string.
+Step 2: Create a function for checking if the inserted string consist of number from step 3
+Step 3: Using the function matches(). Check if( str.matches("[0-9]+") && str.length()>2), if then it is an integer and return true else not an integer, return false.
+Step 4: If function is true then proceed with step 5 else Step 11.
+Step 5: Create a function to check whether the string is positive for that do step 6
+Step 6: Convert the string to integer variable which is declared globally using Integer.ParseInt function. Then check if th num variable is greater than 0. If then go to step 7 else step 8.
+Step 7: Print Number is positive.
+Step 8: Print number is negative.
+Step 9: Create a function to check if the number is palindrome by copying the num to a temp variable and reverse the number.check if temp is equal to reversed number of then print it is pallindrome else not palindrome
+Step 10: Print the number.
+Step 11: Stop
