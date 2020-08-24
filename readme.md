@@ -1,4 +1,4 @@
-#Projects assigned to do on 24/08/2020
+# Projects assigned to do on 24/08/2020
 
 * Program to convert Temperature to Fahrenheit.
 * Java program for accepting two numbers, divide the first number by second number and display their quotient.
