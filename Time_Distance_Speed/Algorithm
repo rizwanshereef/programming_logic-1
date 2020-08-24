@@ -1,0 +1,4 @@
+Step 1: Input the Distance in Kilometer and Speed in Kilometer/hour(Kmph) to variable dt and spd.
+Step 2: Calculate the time using the equation dt/spd.
+Step 3: Print the time
+Step 4: Stop

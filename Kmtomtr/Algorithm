@@ -1,0 +1,4 @@
+Step 1: input the distance in Kilometer from the user to the variable n
+Step 2: Convert to meter using the formula: (n*1000)
+Step 3: Print the values in Kilometer and meter.
+

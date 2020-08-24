@@ -1,0 +1,5 @@
+Step 1: Input the length and breadth to the variable a and b.
+Step 2: If value of a equals to value of b then do step 3 else do step 4
+Step 3: Calculate the area of square using the equation a*a
+Step 4: Calculate the area of Rectangle using the equation a*b
+Step 5: Stop

@@ -1,0 +1,6 @@
+Step 1: Input the 1st number to the variable a
+Step 2: Input the 2nd number to the variable b
+Step 3: If variable a>b, then do step 4, else step 5
+Step 4: Print variable a is largest.
+Step 5: Print varable b is largest.
+Step 6: Stop

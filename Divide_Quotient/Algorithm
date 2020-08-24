@@ -1,0 +1,5 @@
+Step 1: Input the 1st number to variable "a"
+Step 2: Input the 2nd number to variable "b"
+Step 3: Check if 2nd number > 1st number, if so print Quotient is 0, else do step 4.
+Step 4: Calcuate the quotient by dividing the 1st variable "a" to the variable "b" .ie, a/b.
+Step 5: Print the Quotient

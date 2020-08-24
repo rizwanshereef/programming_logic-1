@@ -1,0 +1,7 @@
+Step 1: Intialize an array for inputting the 5 numbers
+Step 2: Initialize variable sum to calculte the sum with value 0
+Step 3: For i from 0 to 5 do steps 4 to 5
+Step 4: Input each numbers to the array
+Step 5: Calculate the sum by adding the number at each iteration to variable sum.
+Step 6: Calculate the Average by using the equation, (sum/5)
+Step 7: Print Sum and Average.

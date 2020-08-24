@@ -1,0 +1,4 @@
+Step 1: Input the number to the variable 
+Step 2: Check if number % 2 is 0 if then do step 3, else step 4.
+Step 3: Print the number is even
+Step 3: Print the number is Odd.

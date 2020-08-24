@@ -1,0 +1,6 @@
+Step 1: Input the letter to a string str.
+Step 2: Convert the string to Array.
+Step 3: Extract the 3rd letter from the array and check if it is the letter is equal to "a" or "e" or "i" or "o" or "u", if so do step 4 else Step 5
+Step 4: Print the 3rd letter is Vowel.
+Step 5: Print the 3rd letter is Constant.
+Step 6: Stop.

@@ -1,0 +1,6 @@
+Step 1: Enter the limit of the serial number and input to a variable n.
+Step 2: Create a array for storing vlaues in Celsius and initialize the position 1 as 0.
+Step 3: Create a loop with variable i which will increment the array with value 10 at each iteration till i reaches limit variable n.
+Step 4: Calculate the Fahrenheit by taking the ((array[i]*9)/5)+32 
+Step 5: Print the value of Serial no, Array, Array converted to fahrenheit.
+Step6: Stop
