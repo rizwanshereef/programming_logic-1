@@ -9,7 +9,7 @@ public class Main {
 /* Input the number*/        
         System.out.println("Enter the number:");
         int n = s.nextInt();
-/* Checki the number is odd or even and print the result*/
+/* Check if the number is odd or even and print the result*/
         if(n%2==0){
             System.out.println("The entered value is Even");
         }
