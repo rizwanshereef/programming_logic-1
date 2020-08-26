@@ -13,8 +13,7 @@ public class  Main {
 /*Convert the string to array*/
         char[] ch = str.toCharArray();
 /*Take the 3rd letter by selecting the 2nd index from the array and compare with the condition and print if it is Vowel or not*/
-        if (ch[2] =='a' || ch[2] =='e'||ch[2] =='i'||ch[2] =='o'||ch[2] =='u')
-        {
+        if(ch[2] =='a' || ch[2] =='e'||ch[2] =='i'||ch[2] =='o'||ch[2] =='u'){
             System.out.println("The 3rd letter is a Vowel");
         }
         else {
