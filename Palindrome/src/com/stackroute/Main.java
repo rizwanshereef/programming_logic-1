@@ -1,13 +1,15 @@
 package com.stackroute;
 
 import java.util.Scanner;
-
+/* Program to check if the number entered is palindrome */
 public class Main {
     String str;
     int num;
     public static void main(String[] args) {
         Main m = new Main();
+/*Add the number to be checked */        
         m.add();
+/* Check if the number is valid integer or not*/
         if(m.checkint()) {
             m.checkpostive();
             m.pal();
@@ -15,34 +17,30 @@ public class Main {
         }
     }
 
-    public void add( )
-    {
+/*Method to add the number*/
+    public void add( ){
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the number:");
         this.str = s.next();
 
     }
-
-    public void checkpostive()
-    {
+/*Method to check if the number is positive or not*/
+    public void checkpostive(){
         this.num= Integer.parseInt(str);
-        if(num>0)
-        {
+        if(num>0){
             System.out.println("The number is Positive");
         }
-        else
-        {
+        else{
             System.out.println("The number is Negative");
         }
 
     }
-    public boolean checkint()
-    {
-    if (str.matches("[0-9]+") && str.length()>2)
-    {
+
+/* Method to check if the entered value is Integer or not*/
+    public boolean checkint(){
+    if (str.matches("[0-9]+") && str.length()>2){
         System.out.println("Entered string is Integer!");
         return true;
-
        }
     else {
         System.out.println("Not an Integer. Please enter integer");
@@ -50,30 +48,26 @@ public class Main {
     }
     }
 
-    public void pal()
-    {
+/* Method to check if the number is palindrome or not by reversing the number*/
+    public void pal(){
         int r;
         int sum=0;
         int temp = num;
-        while (num>0)
-        {
+        while (num>0){
             r=num%10;
             sum=(sum*10)+r;
             num=num/10;
         }
-        if(temp == sum)
-        {
+        if(temp == sum){
          System.out.println("Number is palindrome");
         }
-        else
-        {
+        else{
             System.out.println("Number is not palindrome");
         }
         num = temp;
     }
-
-    public void display()
-    {
+/*Method to display the result*/
+    public void display(){
         System.out.println("The number is:"+num);
     }
 }
