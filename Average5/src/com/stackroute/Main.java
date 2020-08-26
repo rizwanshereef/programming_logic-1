@@ -16,6 +16,7 @@ public class Main {
         }
         /* find the average*/
         float avg = (sum/5);
+        /* Print the sum and Average*/
         System.out.println("The Sum of 5 numbers is: "+sum);
         System.out.println("The Average of 5 numbers is: "+avg);
     }
