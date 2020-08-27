@@ -6,22 +6,13 @@ import java.util.Scanner;
 public class Odd_Even {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         /* Input the number*/
         System.out.println("Enter the number:");
-        int n = s.nextInt();
+        int numOne = scan.nextInt();
         /* Check if the number is odd or even and print the result*/
-=======
-public class Main {
 
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-/* Input the number*/        
-        System.out.println("Enter the number:");
-        int n = s.nextInt();
-/* Check if the number is odd or even and print the result*/
-
-        if(n%2==0){
+        if(numOne%2==0){
             System.out.println("The entered value is Even");
         }
         else{

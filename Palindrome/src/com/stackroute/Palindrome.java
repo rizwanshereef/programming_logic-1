@@ -6,22 +6,22 @@ public class Palindrome {
     String str;
     int num;
     public static void main(String[] args) {
-        Palindrome m = new Palindrome();
+        Palindrome pal_no = new Palindrome();
         /*Add the number to be checked */
-        m.add();
+        pal_no.add();
         /* Check if the number is valid integer or not*/
-        if(m.checkint()) {
-            m.checkpostive();
-            m.pal();
-            m.display();
+        if(pal_no.checkint()) {
+            pal_no.checkpostive();
+            pal_no.pal();
+            pal_no.display();
         }
     }
 
     /*Method to add the number*/
     public void add( ){
-        Scanner s = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number:");
-        this.str = s.next();
+        this.str = scan.next();
 
     }
     /*Method to check if the number is positive or not*/
@@ -50,12 +50,12 @@ public class Palindrome {
 
     /* Method to check if the number is palindrome or not by reversing the number*/
     public void pal(){
-        int r;
+        int rem;
         int sum=0;
         int temp = num;
         while (num>0){
-            r=num%10;
-            sum=(sum*10)+r;
+            rem=num%10;
+            sum=(sum*10)+rem;
             num=num/10;
         }
         if(temp == sum){

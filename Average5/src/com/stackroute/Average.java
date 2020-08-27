@@ -2,16 +2,16 @@ package com.stackroute;
 
 import java.util.Scanner;
 
-public class Average5 {
+public class Average {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         float sum =0;
         int inp[]= new int[5];
         /* Enter the number on to the array. */
         for (int i=0;i<5;i++) {
             System.out.println("Enter the " + (i + 1) + " number");
-            inp[i] = s.nextInt();
+            inp[i] = scan.nextInt();
             sum = sum + inp[i];
         }
         /* find the average*/

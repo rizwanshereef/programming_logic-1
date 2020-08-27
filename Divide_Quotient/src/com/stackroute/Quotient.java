@@ -6,18 +6,18 @@ public class Quotient {
 
     public static void main(String[] args) {
         /* Input Variables */
-        Scanner s = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter the 1st number:");
-        int a = s.nextInt();
+        int numOne = scan.nextInt();
         System.out.println("Enter the 2nd number:");
-        int b = s.nextInt();
+        int numTwo = scan.nextInt();
         /* Check if the 2nd number is greater than 1 so division not possible */
-        if(a<b){
+        if(numOne<numTwo){
             System.out.println("The 2nd number is greater than 1st, so Quotient is 0");
         }
         else {
-            int c = a / b;
-            System.out.println("The quotient is:" + c);
+            int quot = numOne / numTwo;
+            System.out.println("The quotient is:" + quot);
         }
     }
 }

@@ -7,21 +7,12 @@ import java.util.Scanner;
 public class Time_Distance_Speed {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         /*Input the Distance and Speed*/
-
-public class Main {
-
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-/*Input the Distance and Speed*/
-
         System.out.println("Enter the Distance in Kilometer:");
-        int dt = s.nextInt();
+        int dt = scan.nextInt();
         System.out.println("Enter the Speed in Kilometer/Hour(km/h):");
-        int spd = s.nextInt();
-
-        /*finding time*/
+        int spd = scan.nextInt();
 
 /*finding time*/
 
